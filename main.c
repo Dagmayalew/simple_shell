@@ -40,14 +40,14 @@ void set_value(store_shell *storesh, char **da)
 	storesh->counter = 1;
 	storesh->status = 0;
 
-	for (d = 0; work[d]; d++)
+	for (d = 0; environ[d]; d++)
 		;
 
 	storesh->_work = malloc(sizeof(char *) * (i + 1));
 
-	for (i = 0; work[i]; i++)
+	for (i = 0; environ[i]; i++)
 	{
-		storesh->_work[i] = _strdup(work[i]);
+		storesh->_work[i] = _strdup(environ[i]);
 	}
 
 	storesh->_work[i] = NULL;
