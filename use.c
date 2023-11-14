@@ -63,16 +63,16 @@ int _compareStrings(char *tom, char *hlu)
 	else
 		gud = tom2;
 
-	while (ela <= lim)
+	while (ela <= gud)
 	{
-		if (s1[ela] == s2[ela])
+		if (tom[ela] == hlu[ela])
 		{
 			ela++;
 			continue;
 		}
 		else
 		{
-			lyu = s1[ela] - s2[ela];
+			lyu = tom[ela] - hlu[ela];
 			break;
 		}
 
