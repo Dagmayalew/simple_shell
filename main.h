@@ -21,5 +21,9 @@ int out(char d);
 void p_string(char *tsi);
 int compTwoString(const char *tom, const char *hlu, size_t length);
 void *anotherSize(void *tek, unsigned int arg, unsigned int adi);
+void d_hand(int ante_id);
+int kot_in(char *lis);
+int kot_del(char *lis, char *dst);
+
 
 #endif
