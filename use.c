@@ -9,14 +9,14 @@
   */
 char *_concat2(char *dag, char *eyu)
 {
-	int length = 0, i = 0;
+	int length = 0, d = 0;
 
-	while (dag[len])
+	while (dag[length])
 		length++;
 
-	for (i = 0; eyu[i] != '\0'; i++)
+	for (d = 0; eyu[d] != '\0'; d++)
 	{
-		dag[length] = eyu[i];
+		dag[length] = eyu[d];
 		length++;
 	}
 
@@ -34,7 +34,7 @@ int _stringLength(const char *d)
 {
 	int e = 0;
 
-	while (d[i])
+	while (d[e])
 		e++;
 
 	return (e);
