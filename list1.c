@@ -59,7 +59,7 @@ void free_separator_list(separator_list **head)
  * add_line_node_end - adds a command line at the end
  * of a line_list.
  * @head: head of the linked list.
- * @line: command line.
+ * @command_line: command line.
  * Return: address of the head.
  */
 line_list *add_line_node_end(line_list **head, char *command_line)
