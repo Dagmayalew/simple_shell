@@ -24,6 +24,6 @@ void *anotherSize(void *tek, unsigned int arg, unsigned int adi);
 void d_hand(int ante_id);
 int kot_in(char *lis);
 int kot_del(char *lis, char *dst);
-
+char *rem_new(char *lis);
 
 #endif
